@@ -1,4 +1,3 @@
 before_install:
   - sdk install java 17.0.1-open
   - sdk use java 17.0.1-open
-  - echo "org.gradle.java.home=/usr/lib/jvm/java-17-openjdk-amd64" > gradle.properties
